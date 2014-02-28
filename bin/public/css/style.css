@@ -1,0 +1,253 @@
+body
+{
+background-color: #F1F1F1;
+}
+
+#menu
+{
+	text-align: center;
+	background: #00BBFF;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+}
+#menu li, #menu a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	font: bold 16px verdana, arial, helvetica, sans-serif;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	margin: 0;
+}
+#home
+{
+	float:left;
+}
+#logreg
+{
+	float:right;
+}
+#footer {
+	height: 30px;
+	background-color: #00BBFF;
+	color: #fff;
+	font: normal 15px/30px arial, verdana, helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding:5px;
+}
+.destinationimage
+{
+	margin-right:50px;
+	height:150px;
+	width:150px;
+	margin-top:10px;
+}
+#title 
+{
+	width: 510px;
+	height: 75px;
+	line-height: 75px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+	font: bold 50px arial, helvetica, sans-serif;
+	color: #00BBFF;
+	letter-spacing: 8px;
+	cursor: default;
+	
+}
+#latest {
+	height: 300px;
+	background: #00BBFF;
+	border: 2px solid #FFF9A1;
+	overflow: hidden;
+	text-align:center;
+	color:#F3F3F3;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:15px;
+	margin-right:10px;
+}
+
+#latest h1
+{
+	margin-bottom:0;
+	margin-top:10px;
+}
+
+#latest ul {
+	width: 710px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+#latest ul li {
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	display: inline;
+}
+
+
+#latest ul li h2 {
+	font: bold arial, verdana, helvetica;
+	margin-top: 10px;
+	color: #FFF9A1;
+	width: 160px;
+}
+
+#latest ul li a img {
+	border: 3px solid #fff;
+}
+
+#container {
+	width: 732px;
+	margin: 0 auto;
+	background-color: #FFF;
+	height: auto;
+	margin-top:30px;
+	min-height:800px;
+}
+
+.content {
+	
+	margin: 20px 10px 0 20px;
+	font: normal 14px/21px arial, verdana, helvetica, sans-serif;
+	text-align: center;
+	
+}
+
+.content h1, .content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content h1 {
+	color: #FFF9A1;
+	font: normal 40px verdana, helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.content h2 {
+	margin: 20px 0 4px 0;
+}
+
+.logo
+{
+	height:100px;
+	widht:100px;
+	display:inline;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+	
+}
+
+p.logintitle, p.registertitle, p.destinationtitle {
+	margin: 15px auto;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p.loginerror, p.registererror, p.destinationerror {
+	margin: 15px auto;
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+
+label.loginlabel, label.registerlabel, label.destinationlabel {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 120px;
+	text-align: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.destinationinfo
+{
+	margin-bottom:50px;
+}
+
+div.destinationinfo img {
+	height:300px;
+	float:right;
+	margin-left:10px;
+	border: solid 1px #00BBFF;
+}
+
+div.destinationinfo h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #00BBFF;
+}
+
+div.destinationinfo p.destinationheight, div.destinationinfo p.destinationposition, div.destinationinfo p.destinationrating {
+	font-size: 14px;
+	//font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.name
+{
+	
+}
+
+.textarea
+{
+display:block;
+height: 200px;
+margin: 0 auto 20px;
+width: 600px;
+}
+
+.desc
+{
+margin-left:-475px;
+}
+
+.destinationprice
+{
+font-size: 16px;
+}
+
+.button
+{
+margin-top: 20px;
+background-color: #49AFCD;
+    background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
